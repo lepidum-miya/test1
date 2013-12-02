@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>5-2</title>
+</head>
+<body>
+<div style="margin-left:auto;margin-right:auto;text-align:center">
+<p>取引一覧</p>
+<form action="5-3D.html">
+<table border="1" style="margin-left:auto;margin-right:auto;text-align:center">
+  <tr><td>予約番号:<input type="textarea" placeholder"予約番号" /><input type="submit" value="表示" />
+</table>
+<p>
+    <select type="">
+      <option value="1">すべて</option>
+      <option value="2">購入予約</option>
+      <option value="3">在庫確保</option>
+    </select>
+    <select type="">
+      <option value="201311">2013年11月</option>
+      <option value="201312">2013年12月</option>
+      <option value="201401">2014年01月</option>
+      <option value="201402">2014年02月</option>
+    </select>
+</p>
+<table border="1" style="margin-left:auto;margin-right:auto;text-align:center">
+  <tr style="text-align:center"><th rowspan="2">予約番号</th><th>予約日時</th><th>ユーザ名</th><th rowspan="2"></th></tr>
+  <tr style="text-align:center"><th>状態</th><th>引取期限</th></tr>
+  <tr><td rowspan="2">20131124-1111</td><td>2013/11/25 11:20</td><td>taro</td><td rowspan="2">
+    <a href="5-3D.html">詳細</a> <a href="5-12.html">メッセージ送信</a>
+  </td></tr>
+  <tr><td>在庫確保</td><td>2013/11/26 10:30</td></tr>
+  <tr><td rowspan="2">20140201-1793</td><td>2014/01/25 10:05</td><td>hanako</td><td rowspan="2">
+    <a href="5-3D.html">詳細</a> <a href="5-12.html">メッセージ送信</a>
+  </td></tr>
+  <tr><td>購入予約</td><td></td></tr>
+</table>
+</body>
